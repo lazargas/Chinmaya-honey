@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url(style.css);
+        @import url(cart.css);
+    </style>
+</head>
+
+<body>
+    <div id="scroll-wrapper">
+        <nav>
+            <div class="logo">
+                <img src="/assets/Chinmaya Honey.svg" alt="">
+            </div>
+            <div class="nav-buttons">
+                <a href="index.html">
+                    <p>Home</p>
+                </a>
+                <a href="Sell.html">
+                    <p>Shop</p>
+                </a>
+                <a>
+                    <p>Account</p>
+                </a>
+                <a><button id="cart" onclick="toggleCart()" style="background: none;border: none;cursor: pointer;"><img
+                            src="/assets/cart.svg" alt="">
+                    </button></a>
+                <div class="cart-dropdown">
+                    <div id="cart-items" class="cart-items">
+                        
+                        <div class="cart-item">
+                            <div><img class="cart-image" src="/assets/Jelly.svg" alt=""></div>
+                            <div class="cart-item-details">
+                                <div class="cart-item-text">
+                                    <p>Quantity</p>
+                                    <p>:</p><input type="number"
+                                        style="width: 25%; margin-right: 2px;margin-left:2px;padding:4px;border: solid 1px grey; border-radius: 5px;"></input>
+                                </div>
+                                <div class="cart-item-text">
+                                    <p>Total Price</p>
+                                    <p>:</p>
+                                    <p>9000</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-continue">
+                            <button class="continue-button">
+                                Continue Shopping
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+        </nav>
+        <div id="scroll-container">
+            <section data-speed="clamp(1.3)" class="text">
+                <p>Welcome To Chinmay Honey</p>
+                <p>Our honey is meticulously crafted within the serene confines of our ashram, where a community of
+                    dedicated individuals follows ancient traditions and rituals to produce honey infused with positive
+                    energy and blessings.</p>
+                <a href="/Sell.html">
+                    <button class="buy-now">
+                        Buy Now
+                    </button>
+                </a>
+            </section>
+            <section class="section-1">
+                <!-- <div data-speed="clamp(1.5)" class="wrapper" ><img class="" src="/assets/Rectangle1.svg" alt=""></div> -->
+                <!-- <div data-speed="clamp(1.9)" class="wrapper" ><img src="/assets/2.jpg" alt=""></div>
+                <div data-speed="clamp(1.6)" class="wrapper" ><img src="/assets/3.jpg" alt=""></div> -->
+            </section>
+            <section class="section-2">
+                <div data-speed="clamp(1.1)" class="section-2-heading">
+                    <p>Benefits</p>
+                </div>
+                <div class="section-2-grid">
+                    <div data-speed="clamp(1.2)">
+                        <p>
+                            Dive into a delectable array of honey flavors, from the floral notes of wildflower
+                        </p>
+                    </div>
+                    <div data-speed="clamp(1.3)">
+                        <p>
+                            Shelf Life Wonder Honey stays fresh for ages! Stock up on this timeless delight that's
+                            always ready to sweeten your day.
+                        </p>
+                    </div>
+                    <div data-speed="clamp(1.1)">
+                        <p>
+                            Soothe and Heal Remedy for sore throats and coughs.
+                        </p>
+                    </div>
+                </div>
+                <div class="section-2-cards">
+                    <div class="section-2-card card-1 ">Sweeten Naturally Elevate your taste buds with the pure
+                        sweetness of nature's golden nectar honey!</div>
+                    <div class="section-2-card card-2 ">Unleash your culinary creativity with honey as the secret
+                        ingredient.</div>
+                    <div class="section-2-card card-3 ">Experience a burst of natural energy with honey's wholesome
+                        goodness, fueling your active lifestyle</div>
+                    <div class="section-2-card card-4 ">Unleash your skin's radiance with moisturizing benefits.</div>
+                </div>
+            </section>
+            <div class="div-block-12">
+                <div>
+                    <h1 class="heading-3">Chinmaya Honey</h1>
+                </div>
+                <div class="div-block-13"><span class="text-span-8">Our ashram is a sanctuary of spiritual practices and
+                        well-being. The honey we offer carries the vibrations of tranquility, peace, and harmony that
+                        are
+                        cultivated within our sacred space.</span></div>
+                <div class="div-block-14">
+                    <div id="w-node-_53a0eb9a-1d7e-cc41-b119-a50b63f6d42f-cb487280"><span
+                            class="text-span-9">Policy</span>
+                    </div>
+                    <div id="w-node-_05d200ae-5a1f-6a79-9cdf-099c2a37ab55-cb487280"><span
+                            class="text-span-10">Support</span>
+                    </div>
+                    <div id="w-node-f8d77000-0e21-944b-d9cc-03a2b241e401-cb487280"><span class="text-span-11">Contact
+                            Us</span>
+                    </div>
+                    <div id="w-node-_1182c591-e6d0-9484-917c-eceac894ad92-cb487280"><span class="text-span-12">Privacy
+                            Policy</span></div>
+                    <div id="w-node-_66bd8d54-e919-ff25-84dd-4d7c7ceadc17-cb487280"><span
+                            class="text-span-13">Faq&#x27;s</span>
+                    </div>
+                    <div id="w-node-f87d9758-e863-ccc6-2c2e-e3e4b25e0c2a-cb487280" class="text-block-10">+91 6205864459
+                    </div>
+                    <div id="w-node-_398f3216-d80b-8092-624d-1aec2089add9-cb487280" class="text-block-9">Term Of Use
+                    </div>
+                    <div id="w-node-_0ff05200-33bf-6f49-5562-0903ccbe71e3-cb487280" class="text-block-9">About Us</div>
+                    <div id="w-node-c9d5f708-1a7e-e3b4-f932-ca322503d53f-cb487280" class="text-block-9">
+                        akanshasingh95720@gmail.com</div>
+                    <div id="w-node-d644172d-5f08-1027-bd3a-7128a5bbc02e-cb487280" class="text-block-9">Return, Shipment
+                        and
+                        cancellation Policy</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
+    <script src="https://assets.codepen.io/16327/ScrollTrigger.min.js?v=3.12"></script>
+    <script src="https://assets.codepen.io/16327/ScrollSmoother.min.js?v=3.12"></script>
+    <script src="cart.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
